@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body>
         <div className={classes.navbar}>
           <div>
-            <Link href="shop/list">Shop</Link>
+            <Link href="/shop">Shop</Link>
             <Link href="/cart">Cart</Link>
           </div>
           <Link href="/" className={classes.logo}>
